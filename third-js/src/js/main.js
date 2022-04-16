@@ -54,9 +54,10 @@
 //         break;    
 // }
 
-let price = prompt('Введіть суму покупки');
+// let price = prompt('Введіть суму покупки');
 
-switch (price) {
+
+switch (true) {
     case (price >= 200 && price <= 300):
         console.log('Ваша знижка 3%');
         break;
@@ -67,6 +68,5 @@ switch (price) {
         console.log('Ваша знижка 7%');
         break;
     default:
-        console.log('Error');
-        break;            
+        console.log('Error');           
 }
